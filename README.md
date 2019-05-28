@@ -13,6 +13,23 @@ This repository hosts a *Template Request for Proposals* and some associated doc
 * `Request for Proposals Appendix II - Cybersecurity Requirements Matrix.xlsx` -- the complete list of cybersecurity requirements with details and validation steps
 * `TEMPLATE Proposals Assessment.xlsx` -- the template proposals assessment for completing with assessments of the vendor (response) proposals
 
+# Contributors
+
+The Request For Proposal Contract Template Language project was made possible through the generous contributions of
+thought leadership and technical expertise of many collaborators across the heavy vehicle cyber security community,
+working to push the industry forward and make it more resilient. Though some of our contributors wish to remain
+anonymous, we are deeply grateful to everyone who has given their time and energy to make this a reality.
+
+
+| **Fleet Managers**   | **Telematics Providers** | **Independents**                                                |
+|:--------------------:|:------------------------:|:---------------------------------------------------------------:|
+|                      | Derek Held, Zonar Systems| Altaz Valani, Security Compass                                  |
+|                      | Geotab                   |                                                                 |
+
+![Zonar Systems](https://raw.githubusercontent.com/nmfta-repo/nmfta-rfp_templates/master/media/zonar-logo-RGB-750.png) ![Geotab](https://raw.githubusercontent.com/nmfta-repo/nmfta-rfp_templates/master/media/geotab-logo_full-colour-rgb_resized.png) ![Security Compass](https://raw.githubusercontent.com/nmfta-repo/nmfta-rfp_templates/master/media/securitycompass-logo-resized.jpg)
+
+# Usage
+
 These documents are intended to be used by motor freight carriers in procuring telematics systems in the Request for Proposal (RFP) phase. The workflow of a motor freight carrier and a vendor engaging in an theoretical RFP process is depicted below. In the sections that follow the intended use of each of the documents and templates in this repo is described within the context of this theoretical RFP process.
 
 ![RFP Overview](https://raw.githubusercontent.com/nmfta-repo/nmfta-rfp_templates/master/media/overview.PNG)
