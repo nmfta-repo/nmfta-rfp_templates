@@ -24,9 +24,9 @@ anonymous, we are deeply grateful to everyone who has given their time and energ
 | **Fleet Managers**   | **Telematics Providers** | **Independents**                                                |
 |:--------------------:|:------------------------:|:---------------------------------------------------------------:|
 |                      | Derek Held, Zonar Systems| Altaz Valani, Security Compass                                  |
-|                      | Geotab                   |                                                                 |
+|                      | Geotab                   | Mr. Mark Zachos, President, DG Technologies                     |
 
-![Zonar Systems](https://raw.githubusercontent.com/nmfta-repo/nmfta-rfp_templates/master/media/zonar-logo-RGB-750.png) ![Geotab](https://raw.githubusercontent.com/nmfta-repo/nmfta-rfp_templates/master/media/geotab-logo_full-colour-rgb_resized.png) ![Security Compass](https://raw.githubusercontent.com/nmfta-repo/nmfta-rfp_templates/master/media/securitycompass-logo-resized.jpg)
+![Zonar Systems](https://raw.githubusercontent.com/nmfta-repo/nmfta-rfp_templates/master/media/zonar-logo-RGB-750.png) ![Geotab](https://raw.githubusercontent.com/nmfta-repo/nmfta-rfp_templates/master/media/geotab-logo_full-colour-rgb_resized.png) ![Security Compass](https://raw.githubusercontent.com/nmfta-repo/nmfta-rfp_templates/master/media/securitycompass-logo-resized.jpg) ![DG Technologies](https://raw.githubusercontent.com/nmfta-repo/nmfta-rfp_templates/master/media/dg-logo.png)
 
 # Usage
 
