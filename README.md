@@ -68,5 +68,6 @@ b. For changes to either `TEMPLATE Request for Proposals Appendix I - Requiremen
 	* NB: for any changes to the `Matrix` tab category assignments (columns J,K,L,M); the column A must be manually updated to reflect the state in those columns
 	* NB: do not delete any blank rows in the `Shortlists` tab. These have important formulas in them to pull in data from the requirements matrix.
 3. Copy and paste _as-values_ the contents of the `Matrix` tab columns A-I into the file `Request for Proposals Appendix II - Cybersecurity Requirements Matrix.xlsx` tab `Cybersecurity Requirements` and `Printable Matrix` tab to the same tab of the same name.
-4. Copy and paste _as-values_ the contents of the `CyberReq Shortlist` tab into the `TEMPLATE Request for Proposals Appendix I - Requirements Questionnaires.xlsx` `Shortlists` tab.
-5. Commit the changes and make a pull request.
+4. Copy and paste _as-values_ the contents of the `CyberReq Shortlist` tab into the `TEMPLATE Request for Proposals Appendix I - Requirements Questionnaires.xlsx` `Cybersecurity Shortlists` tab.
+5. Remove blank rows from the `Cybersecurity Shortlists` tab.
+6. Commit the changes and make a pull request.
