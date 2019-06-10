@@ -34,13 +34,13 @@ These documents are intended to be used by motor freight carriers in procuring t
 
 ![RFP Overview](https://raw.githubusercontent.com/nmfta-repo/nmfta-rfp_templates/master/media/overview.PNG)
 
-# `TEMPLATE Request for Proposals.docx`
+## `TEMPLATE Request for Proposals.docx`
 
 ![TEMPLATE Request for Proposals use](https://raw.githubusercontent.com/nmfta-repo/nmfta-rfp_templates/master/media/template_rfp.PNG)
 
 Users should rename this to `<COMPANY> <PROJECT> Request for Proposals.docx` and fill-in the highlighted passages as needed. then attach `Request for Proposals Appendix II - Cybersecurity Requirements Matrix.xlsx` and `<COMPANY> <PROJECT> Request for Proposals Appendix I - Requirements Questionnaires.xlsx` to the package sent to vendors.
 
-# `TEMPLATE Request for Proposals Appendix I - Requirements Questionnaires.xlsx`
+## `TEMPLATE Request for Proposals Appendix I - Requirements Questionnaires.xlsx`
 
 ![TEMPLATE Requirements Questionnaire use](https://raw.githubusercontent.com/nmfta-repo/nmfta-rfp_templates/master/media/template_questionnaire.PNG)
 
@@ -49,9 +49,25 @@ Users should rename this to `<COMPANY> <PROJECT> Request for Proposals Appendix 
 1. Extend the functional and technical requirements tables in the eponymous excel tabs.
 2. Fill-in the cybersecurity requirements tab by collecting groups of cybersecurity requirements from the *Cybersecurity Shortlists* tab.
 
-# `TEMPLATE Proposals Assessment.xlsx`
+## `TEMPLATE Proposals Assessment.xlsx`
 
 ![TEMPLATE Proposal Assessment use](https://raw.githubusercontent.com/nmfta-repo/nmfta-rfp_templates/master/media/template_assessment.PNG)
 
 Users should rename this to `<COMPANY> <PROJECT> Proposals Assessment.xlsx` then complete the cells of the spreadsheet by referring to vendor (response) proposals. Finally, use the completed sheet to find the most suitable proposal.
 
+# How to Make Contributions
+
+The NMFTA would like these templates to be as useful as possible. We are open to refining them based on your feedback and/or changes which you would like to see made to the templates. However, the NMFTA, does not want these requirements or templates to be 'forked' or other custom versions of the requirements or templates to be proliferated. This is the reason for the [Creative Commons `BY-NC-ND` 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) license of all the materials here.
+
+The NMFTA will take your request for changes in whatever form is most convenient to you; an email or phone call is sufficient. The following steps are for those users who wish to propose concrete changes to the documents but also for reference by those at the NMFTA that will otherwise make the changes which are requested by our users.
+
+a. For changes to `TEMPLATE Request for Proposals.docx` or `TEMPLATE Proposals Assessment.xlsx` : make them directly in those files and create a pull request.
+b. For changes to either `TEMPLATE Request for Proposals Appendix I - Requirements Questionnaires.xlsx` or `Request for Proposals Appendix II - Cybersecurity Requirements Matrix.xlsx` the source spreadsheet, `src/Source Sheet for Edits - Shortlists and Requirements Matrix.xlsx` should be edited and the contents of both `TEMPLATE Request for Proposals Appendix I - Requirements Questionnaires.xlsx` or `Request for Proposals Appendix II - Cybersecurity Requirements Matrix.xlsx` should be regenerated:
+
+1. Make edits to `src/Source Sheet for Edits - Shortlists and Requirements Matrix.xlsx`
+	* NB: for any changes to the `Matrix` tab category assignments (columns J,K,L,M); the column A must be manually updated to reflect the state in those columns
+	* NB: do not delete any blank rows in the `Shortlists` tab. These have important formulas in them to pull in data from the requirements matrix.
+3. Copy and paste _as-values_ the contents of the `Matrix` tab columns A-I into the file `Request for Proposals Appendix II - Cybersecurity Requirements Matrix.xlsx` tab `Cybersecurity Requirements` and `Printable Matrix` tab to the same tab of the same name.
+4. Copy and paste _as-values_ the contents of the `CyberReq Shortlist` tab into the `TEMPLATE Request for Proposals Appendix I - Requirements Questionnaires.xlsx` `Cybersecurity Shortlists` tab.
+5. Remove blank rows from the `Cybersecurity Shortlists` tab.
+6. Commit the changes and make a pull request.
