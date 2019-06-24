@@ -13,6 +13,10 @@ This repository hosts a *Template Request for Proposals* and some associated doc
 * `Request for Proposals Appendix II - Cybersecurity Requirements Matrix.xlsx` -- the complete list of cybersecurity requirements with details and validation steps
 * `TEMPLATE Proposals Assessment.xlsx` -- the template proposals assessment for completing with assessments of the vendor (response) proposals
 
+# Download
+
+[Download the latest (v1.0) release of these RFP Templates here](https://github.com/nmfta-repo/nmfta-rfp_templates/releases/download/v1.0/release-1.0.zip)
+
 # Contributors
 
 The Request For Proposal Contract Template Language project was made possible through the generous contributions of
