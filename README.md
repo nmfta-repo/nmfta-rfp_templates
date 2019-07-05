@@ -65,13 +65,17 @@ The NMFTA would like these templates to be as useful as possible. We are open to
 
 The NMFTA will take your request for changes in whatever form is most convenient to you; an email or phone call is sufficient. The following steps are for those users who wish to propose concrete changes to the documents but also for reference by those at the NMFTA that will otherwise make the changes which are requested by our users.
 
-a. For changes to `TEMPLATE Request for Proposals.docx` or `TEMPLATE Proposals Assessment.xlsx` : make them directly in those files and create a pull request.
-b. For changes to either `TEMPLATE Request for Proposals Appendix I - Requirements Questionnaires.xlsx` or `Request for Proposals Appendix II - Cybersecurity Requirements Matrix.xlsx` the source spreadsheet, `src/Source Sheet for Edits - Shortlists and Requirements Matrix.xlsx` should be edited and the contents of both `TEMPLATE Request for Proposals Appendix I - Requirements Questionnaires.xlsx` or `Request for Proposals Appendix II - Cybersecurity Requirements Matrix.xlsx` should be regenerated:
+## Instructions to Prepare Changes to the Files
+
+For changes to `TEMPLATE Request for Proposals.docx` or `TEMPLATE Proposals Assessment.xlsx` : make them directly in those files and create a pull request.
+
+For changes to either `TEMPLATE Request for Proposals Appendix I - Requirements Questionnaires.xlsx` or `Request for Proposals Appendix II - Cybersecurity Requirements Matrix.xlsx` the source spreadsheet, `src/Source Sheet for Edits - Shortlists and Requirements Matrix.xlsx` should be edited and the contents of both `TEMPLATE Request for Proposals Appendix I - Requirements Questionnaires.xlsx` or `Request for Proposals Appendix II - Cybersecurity Requirements Matrix.xlsx` should be regenerated:
 
 1. Make edits to `src/Source Sheet for Edits - Shortlists and Requirements Matrix.xlsx`
 	* NB: for any changes to the `Matrix` tab category assignments (columns J,K,L,M); the column A must be manually updated to reflect the state in those columns
 	* NB: do not delete any blank rows in the `Shortlists` tab. These have important formulas in them to pull in data from the requirements matrix.
-3. Copy and paste _as-values_ the contents of the `Matrix` tab columns A-I into the file `Request for Proposals Appendix II - Cybersecurity Requirements Matrix.xlsx` tab `Cybersecurity Requirements` and `Printable Matrix` tab to the same tab of the same name.
+3. Copy and paste _as-values_ the contents of the `Matrix` tab columns A-I into the file `Request for Proposals Appendix II - Cybersecurity Requirements Matrix.xlsx` tab `Cybersecurity Requirements`
+4. Copy and past _as-values_ the contents of the `Printable Matrix` tab into the file `Request for Proposals Appendix II - Cybersecurity Requirements Matrix.xlsx` tab of the same name.
 4. Copy and paste _as-values_ the contents of the `CyberReq Shortlist` tab into the `TEMPLATE Request for Proposals Appendix I - Requirements Questionnaires.xlsx` `Cybersecurity Shortlists` tab.
 5. Remove blank rows from the `Cybersecurity Shortlists` tab.
 6. Commit the changes and make a pull request.
