@@ -15,7 +15,7 @@ This repository hosts a *Template Request for Proposals* and some associated doc
 
 # Download
 
-[Download the latest (v1.0) release of these RFP Templates here](https://github.com/nmfta-repo/nmfta-rfp_templates/releases/download/v1.0/nmfta-rfp_templates-v1.0.zip)
+[Download the latest (v1.0) release of these RFP Templates here](https://github.com/nmfta-repo/nmfta-rfp_templates/releases/download/v1.1/nmfta-rfp_templates-v1.1.zip)
 
 # Contributors
 
@@ -73,9 +73,10 @@ For changes to either `TEMPLATE Request for Proposals Appendix I - Requirements 
 
 1. Make edits to `src/Source Sheet for Edits - Shortlists and Requirements Matrix.xlsx`
 	* NB: for any changes to the `Matrix` tab category assignments (columns J,K,L,M); the column A must be manually updated to reflect the state in those columns
-	* NB: do not delete any blank rows in the `Shortlists` tab. These have important formulas in them to pull in data from the requirements matrix.
+	* NB: do not delete any blank rows in the `CyberReq Shortlist - Sorted` tab. These have important formulas in them to pull in data from the requirements matrix.
 3. Copy and paste _as-values_ the contents of the `Matrix` tab columns A-I into the file `Request for Proposals Appendix II - Cybersecurity Requirements Matrix.xlsx` tab `Cybersecurity Requirements`
 4. Copy and past _as-values_ the contents of the `Printable Matrix` tab into the file `Request for Proposals Appendix II - Cybersecurity Requirements Matrix.xlsx` tab of the same name.
-4. Copy and paste _as-values_ the contents of the `CyberReq Shortlist` tab into the `TEMPLATE Request for Proposals Appendix I - Requirements Questionnaires.xlsx` `Cybersecurity Shortlists` tab.
+4. Copy and paste _as-values_ the contents of the `CyberReq Shortlist - Sorted` tab into the `TEMPLATE Request for Proposals Appendix I - Requirements Questionnaires.xlsx` `Cybersecurity Shortlists` tab.
 5. Remove blank rows from the `Cybersecurity Shortlists` tab.
-6. Commit the changes and make a pull request.
+6. Copy and paste _as-values_ the contents in the `Cybersecurity Shortlists` tab under *Cloud or Back-end* to the default content in the tab `Requirements Questionnaires`
+7. Commit the changes and make a pull request.
