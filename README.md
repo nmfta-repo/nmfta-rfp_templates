@@ -1,6 +1,6 @@
 # NMFTA Request For Proposal Contract Template Language Documents
 
-A template for Motor Freight Carriers to use in procuring telematics systems and ensuring that these systems fulfill cybersecurity requirements.
+A template for Motor Freight Carriers to use in procuring telematics systems and ensuring that these systems fulfill cybersecurity requirements. The requirements from which these templates derive are now hosted at [ `nmfta-repo/nmfta-telematics_security_requirements` ](https://github.com/nmfta-repo/nmfta-telematics_security_requirements/).
 
 ![NMFTA Logo](https://raw.githubusercontent.com/nmfta-repo/nmfta-rfp_templates/master/media/image1.png)
 
@@ -10,7 +10,6 @@ This repository hosts a *Template Request for Proposals* and some associated doc
 
 * `TEMPLATE Request for Proposals.docx` --  the template *Request for Proposals* capturing contract details and expectations for proposals from vendors
 * `TEMPLATE Request for Proposals Appendix I - Requirements Questionnaires.xlsx` -- the template requirements questionnaires for completing with functional & technical requirements for the project as well as collecting ready-made sets of cybersecurity requirements.
-* `Request for Proposals Appendix II - Cybersecurity Requirements Matrix.xlsx` -- the complete list of cybersecurity requirements with details and validation steps
 * `TEMPLATE Proposals Assessment.xlsx` -- the template proposals assessment for completing with assessments of the vendor (response) proposals
 
 # Download
@@ -69,14 +68,13 @@ The NMFTA will take your request for changes in whatever form is most convenient
 
 For changes to `TEMPLATE Request for Proposals.docx` or `TEMPLATE Proposals Assessment.xlsx` : make them directly in those files and create a pull request.
 
-For changes to either `TEMPLATE Request for Proposals Appendix I - Requirements Questionnaires.xlsx` or `Request for Proposals Appendix II - Cybersecurity Requirements Matrix.xlsx` the source spreadsheet, `src/Source Sheet for Edits - Shortlists and Requirements Matrix.xlsx` should be edited and the contents of both `TEMPLATE Request for Proposals Appendix I - Requirements Questionnaires.xlsx` or `Request for Proposals Appendix II - Cybersecurity Requirements Matrix.xlsx` should be regenerated:
+For changes to `TEMPLATE Request for Proposals Appendix I - Requirements Questionnaires.xlsx` the source spreadsheet, [ `Telematics Cybersecurity Requirements Matrix.xlsx` (in `nmfta-repo/nmfta-telematics_security_requirements` ) ](https://github.com/nmfta-repo/nmfta-telematics_security_requirements/blob/master/Telematics%20Cybersecurity%20Requirements%20Matrix.xlsx) should be edited and the contents of `TEMPLATE Request for Proposals Appendix I - Requirements Questionnaires.xlsx` should be regenerated:
 
-1. Make edits to `src/Source Sheet for Edits - Shortlists and Requirements Matrix.xlsx`
+1. Make edits to [ `Telematics Cybersecurity Requirements Matrix.xlsx` (in `nmfta-repo/nmfta-telematics_security_requirements` ) ](https://github.com/nmfta-repo/nmfta-telematics_security_requirements/blob/master/Telematics%20Cybersecurity%20Requirements%20Matrix.xlsx)
 	* NB: for any changes to the `Matrix` tab category assignments (columns J,K,L,M); the column A must be manually updated to reflect the state in those columns
 	* NB: do not delete any blank rows in the `CyberReq Shortlist - Sorted` tab. These have important formulas in them to pull in data from the requirements matrix.
-3. Copy and paste _as-values_ the contents of the `Matrix` tab columns A-I into the file `Request for Proposals Appendix II - Cybersecurity Requirements Matrix.xlsx` tab `Cybersecurity Requirements`
-4. Copy and past _as-values_ the contents of the `Printable Matrix` tab into the file `Request for Proposals Appendix II - Cybersecurity Requirements Matrix.xlsx` tab of the same name.
-4. Copy and paste _as-values_ the contents of the `CyberReq Shortlist - Sorted` tab into the `TEMPLATE Request for Proposals Appendix I - Requirements Questionnaires.xlsx` `Cybersecurity Shortlists` tab.
-5. Remove blank rows from the `Cybersecurity Shortlists` tab.
-6. Copy and paste _as-values_ the contents in the `Cybersecurity Shortlists` tab under *Cloud or Back-end* to the default content in the tab `Requirements Questionnaires`
-7. Commit the changes and make a pull request.
+2. Propose your changes to [ `nmfta-repo/nmfta-telematics_security_requirements` ](https://github.com/nmfta-repo/nmfta-telematics_security_requirements/) (see *How to Make Contributions* there) and get the changes released.
+3. Copy and paste _as-values_ the contents of the `CyberReq Shortlist - Sorted` tab into the `TEMPLATE Request for Proposals Appendix I - Requirements Questionnaires.xlsx` `Cybersecurity Shortlists` tab.
+4. Remove blank rows from the `Cybersecurity Shortlists` tab.
+5. Copy and paste _as-values_ the contents in the `Cybersecurity Shortlists` tab under *Cloud or Back-end* to the default content in the tab `Requirements Questionnaires`
+6. Propose you changes here (see *How to Make Contributions*) and get the changes released.
