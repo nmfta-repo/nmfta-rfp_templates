@@ -1,6 +1,6 @@
 # NMFTA Request For Proposal Contract Template Language Documents
 
-A template for Motor Freight Carriers to use in procuring telematics systems and ensuring that these systems fulfill cybersecurity requirements. The requirements from which these templates derive are now hosted at [ `nmfta-repo/nmfta-telematics_security_requirements` ](https://github.com/nmfta-repo/nmfta-telematics_security_requirements/).
+A collection of templates specifically designed for motor freight carriers but applicable to anyone who is procuring a telematics type system. The package of documents includes word and excel documents to support the creation of the main request for proposal document, vendor questionnaire, and evaluation template. These documents reference and should be used in conjunction with the detailed security requirements in [ `nmfta-repo/nmfta-telematics_security_requirements` ](https://github.com/nmfta-repo/nmfta-telematics_security_requirements/).
 
 ![NMFTA Logo](https://raw.githubusercontent.com/nmfta-repo/nmfta-rfp_templates/master/media/image1.png)
 
@@ -77,4 +77,4 @@ For changes to `TEMPLATE Request for Proposals Appendix I - Requirements Questio
 3. Copy and paste _as-values_ the contents of the `CyberReq Shortlist - Sorted` tab into the `TEMPLATE Request for Proposals Appendix I - Requirements Questionnaires.xlsx` `Cybersecurity Shortlists` tab.
 4. Remove blank rows from the `Cybersecurity Shortlists` tab.
 5. Copy and paste _as-values_ the contents in the `Cybersecurity Shortlists` tab under *Cloud or Back-end* to the default content in the tab `Requirements Questionnaires`
-6. Propose you changes here (see *How to Make Contributions*) and get the changes released.
+6. Propose your changes here (see *How to Make Contributions*) and get the changes released.
