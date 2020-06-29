@@ -14,7 +14,7 @@ This repository hosts a *Template Request for Proposals* and some associated doc
 
 # Download
 
-[Download the latest (v1.2) release of these RFP Templates here](https://github.com/nmfta-repo/nmfta-rfp_templates/releases/download/v1.2/nmfta-rfp_templates-v1.2.zip)
+[Download the latest (v1.3) release of these RFP Templates here](https://github.com/nmfta-repo/nmfta-rfp_templates/releases/download/v1.3/nmfta-rfp_templates-v1.3.zip)
 
 # Contributors
 
