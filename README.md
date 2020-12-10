@@ -8,6 +8,8 @@ This repository hosts a *Template Request for Proposals* and some associated doc
 
 [![License: CC BY-NC-ND 4.0](https://licensebuttons.net/l/by-nc-nd/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
+THIS INFORMATION CONTAINED HEREIN IS PROVIDED “AS IS” WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE INFORMATION IS WITH THE USER.
+
 * `TEMPLATE Request for Proposals.docx` --  the template *Request for Proposals* capturing contract details and expectations for proposals from vendors
 * `TEMPLATE Request for Proposals Appendix I - Requirements Questionnaires.xlsx` -- the template requirements questionnaires for completing with functional & technical requirements for the project as well as collecting ready-made sets of cybersecurity requirements.
 * `TEMPLATE Proposals Assessment.xlsx` -- the template proposals assessment for completing with assessments of the vendor (response) proposals
